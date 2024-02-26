@@ -21,6 +21,8 @@ const updateCount = (el) => {
   // console.log(increaseCount);
 };
 
+
+
 items.forEach((item) => {
   updateCount(item);
 });
