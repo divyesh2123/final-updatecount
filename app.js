@@ -3,6 +3,7 @@ const items = document.querySelectorAll('.number');
 const updateCount = (el) => {
   const value = +(el.dataset.value);
  
+  
   const increment = Math.ceil(value / 1000);
   // const increment = 1;
   let initialValue = 0;
@@ -21,6 +22,11 @@ const updateCount = (el) => {
   // console.log(increaseCount);
 };
 
+var d = [];
+
+d.forEach((value,index)=>{
+
+})
 
 
 items.forEach((item) => {
